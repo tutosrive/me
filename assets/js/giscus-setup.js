@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "tutosrive/_tutosrive",
+    "data-repo": "tutosrive/me",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
