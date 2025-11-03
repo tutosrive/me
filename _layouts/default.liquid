@@ -13,6 +13,8 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+
+    <script defer src="https://chirpy.dev/bootstrapper.js" data-chirpy-domain="tutosrive.github.io"></script>
   </head>
 
   <!-- Body -->
@@ -52,5 +54,11 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <div
+      data-chirpy-theme="system"
+      data-chirpy-comment="true"
+      id="chirpy-comment"
+    ></div>
   </body>
 </html>
